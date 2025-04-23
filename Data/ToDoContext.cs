@@ -8,5 +8,6 @@ public class TodoContext : DbContext
     : base(options) { }
 
     public DbSet<TodoItem> TodoItems => Set<TodoItem>();
+    public DbSet<User> Users => Set<User>();
 }
 
